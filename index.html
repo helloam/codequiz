@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Trivia Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="quizArea">
+      <header class="mainHeader">
+        <h1>This is a Trivia Quiz!</h1>
+        <p>You have 60 seconds to answer all questions.</p> 
+        <p>Each question you get wrong deducts time from the clock. Good luck!</p>
+        <section class="scores">
+          <div id="scoreArea" class="hide"></div>
+        </section>
+        <span id="timerArea"></span>
+      </header>
+
+      <div id="container" class="hide">
+        <div id="question"></div>
+        <div id="answers" class="buttonArea"></div>
+      </section>
+
+      <section class="controls">
+        <button class="start" id="startButton">START</button>
+        <button class="btn" id="showScoresButton">See High Scores</button>
+        <br />
+
+        <div id="scoreArea" class="hide">
+          <span id="scoreDisplay"></span>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+    </div>
+
+  
+    <div id = "submit-score" class="container mt-5">
+        <div class="row justify-content-center mt-5 pt-3 pb-3">
+            <div class="col-4 col-lg-5">
+                <h1 id = "finalScore"></h1>
+             
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
